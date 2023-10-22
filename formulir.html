@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulir</title>
+    <link rel="stylesheet" type="text/css" href="style/formulir.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ORCE WEBSITE</h1>
+      <img
+        width="200"
+        src="https://i.pinimg.com/564x/01/a1/04/01a1045c7fba08eeb93a69507cc9660e.jpg"
+        alt="Logo"
+      />
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html"> Halaman Utama </a></li>
+        <li><a href="formulir.html"> Halaman Formulir </a></li>
+        <li><a href="tabel.html"> Halaman Tabel </a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Halaman Formulir</h2>
+      <form action="tabel.html" method="get">
+        <label for="Nama"> Nama : </label>
+        <input type="text" id="Nama" name="Nama" required /><br />
+
+        <label for="Nim"> NIM : </label>
+        <input type="text" id="Nim" name="Nim" required /><br />
+
+        <label for="Program_studi"> Program Studi : </label>
+        <input
+          type="text"
+          id="Program_studi"
+          name="Program_studi"
+          required
+        /><br />
+
+        <label for="Email"> Email :</label>
+        <input type="email" id="Email" name="Email" required /><br />
+
+        <label for="Password"> Password : </label>
+        <input type="password" id="Password" name="Password" required /><br />
+
+        <label for="Jenis_kelamin"> Jenis Kelamin :</label>
+        <select id="Jenis_kelamin" name="Jenis_kelamin" required>
+          <option value="Laki-laki">Laki-laki</option>
+          <option value="Perempuan">Perempuan</option></select
+        ><br />
+
+        <label for="Tgl_lahir"> Tanggal Lahir : </label>
+        <input type="date" id="Tgl_lahir" name="Tgl_lahir" required /><br />
+
+        <label for="Alamat"> Alamat : </label>
+        <textarea id="Alamat" name="Alamat" required></textarea><br />
+
+        <input type="Submit" value="Daftar" />
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 natasya-amb</p>
+    </footer>
+  </body>
+</html>
